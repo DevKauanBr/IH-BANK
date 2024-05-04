@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(8, 8, 8);
+}
+
+h1#title{
+    color: rgb(62, 49, 247);
+    font: bold 30pt tahoma;
+}
+
+#desc{
+    color: white;
+    font: normal 10pt tahoma;
+}
+
+#saldo{
+    color: rgb(255, 255, 255);
+    font: bold 20pt tahoma;
+}
+
+#saldoV, #cpf, #nascimento, #nome{
+    color: rgb(92, 177, 12);
+}
+
+#lucro{
+    color: rgb(6, 99, 221);
+}
+
+#conta, #senha{
+    width: 150px;
+    height: 20px;
+}
+#nomeclatura{
+    font: normal 15pt tahoma;
+    color: rgb(116, 110, 110);
+}
+#entrar, #deslogar,#pix, #ocultar{
+    width: 100px;
+    height: 30px;
+    font: bold 10pt tahoma;
+    color: rgb(62, 49, 247);
+    cursor: pointer;
+}
+#erro{
+    color: rgb(255, 0, 0);
+    font: bold 10pt tahoma;
+}

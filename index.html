@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IH BANK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login">
+        <h1 id="title"><center>IH BANK</center></h1>
+        <center>
+            <p id="nomeclatura">Conta</p>
+            <input type="text" name="conta" id="conta">
+            <br>
+            <p id="nomeclatura">Senha</p>
+            <input type="text" name="senha" id="senha">
+            <br>
+            <br>
+            <br>
+            <input type="button" value="ENTRAR" id="entrar" onclick="entrar()">
+            <br>
+            <p id="erro">Erro: Conta ou senha Inválida!</p>
+    </div>
+        
+    </center>
+
+    <div id="infos">
+        <h1 id="title"><center>IH BANK</center></h1>
+        <h1 id="desc"><center>Seu banco pessoal privado</center></h1>
+
+        <input type="button" value="Ocultar" id="ocultar" onclick="ocultar_saldo()">
+        <p id="saldo">Saldo: <span id="saldoV" ondblclick="mudar_saldo()">R$0,00</span></p>
+        <p id="saldo">Nome: <span id="nome">Kauan Faria</span></p>
+        <p id="saldo">Data De Nascimento: <span id="nascimento">06/10/2007</span></p>
+        <p id="saldo">CPF: <span id="cpf">012.548.693-58</span></p>
+        <p id="saldo">Lucro Mensal: <span id="lucro">+ R$685,00/Mensal</span></p>
+        <br>
+        <br>
+        <input type="button" value="Deslogar" id="deslogar" onclick="deslogar()">
+        <input type="button" value="PIX" id="pix" onclick="pix()">
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
